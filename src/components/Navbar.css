@@ -1,0 +1,25 @@
+.Home-link:hover{
+    color:orangered;
+}
+.Dishes-link:hover{
+    color:orangered;
+}
+.About-link:hover{
+    color:orangered
+}
+.Menu-link:hover{
+    color:orangered;
+}
+.review-link:hover{
+    color:orangered;
+}
+Button:hover{
+    color:white;
+    background-color: orangered;
+}
+.f-web:hover{
+    color:orangered
+}
+.Res:hover{
+    color:orangered
+}
