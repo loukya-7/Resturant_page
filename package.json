@@ -1,16 +1,17 @@
-{
+{  
+  "homepage": "https://loukya-7.github.io/Resturant_page",
   "name": "resturant-website",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://loukya-7.github.io/Food_Website",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0 --fix",
     "preview": "vite preview",
-    "start": "npm run dev",
-    "predeploy": "npm run build",
-    "deploy": "vite build && gh-pages -d dist"
+    "start": "npm run dev"
+   
   },
   "dependencies": {
     "react": "^18.2.0",
