@@ -2,7 +2,7 @@
   "name": "resturant-website",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://loukya-7.github.io/Resturant_Website",
+  "homepage": "https://loukya-7.github.io/Food_Website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
